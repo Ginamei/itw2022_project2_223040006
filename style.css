@@ -1,0 +1,30 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #a1a7af;
+}
+
+#projects {
+    background-color: #a1a7af;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.menu .card {
+    transition: background 0.5s, transform 0.5s;
+}
+
+.menu .card:hover {
+    transform: translateY(-15px);
+}
+
+.menu h4 {
+    padding-bottom: 20px;
+}
+
+@media (max-width :600px) {
+    #about {
+        display: none;
+    }
+}
